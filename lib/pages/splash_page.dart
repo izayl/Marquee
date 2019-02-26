@@ -14,6 +14,7 @@ class SplashState extends State<Splash> {
         Duration(seconds: 1),
         () => Navigator.of(context).push(
             MaterialPageRoute(builder: (BuildContext context) => Dashboard())));
+    super.initState();
   }
 
   @override
